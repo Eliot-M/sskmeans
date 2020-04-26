@@ -1,0 +1,1 @@
+from .monfichier import square
