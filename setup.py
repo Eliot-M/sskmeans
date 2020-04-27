@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Eliot-M/sskmeans",
-    packages=['funniest'],
+    packages=['sskmeans'],
     install_requires=[
         'pandas<1.0',
     ],
