@@ -20,7 +20,7 @@ Let's have a look on the result of a Kmeans algorithm:
 By creating 3 clusters in this data, it creates a cluster with only 2 points (7% of points).
 Far from an equal assignment of points (which would be about 9 points). 
 
-The Same_Siza_Kmeans algorithm can force this assignment to be more equal in term of size:
+The "Same Size Kmeans" algorithm can force this assignment to be more equal in term of size:
 
 ![clustering with Kmeans](img/Example_SSKmeans.png)
  
@@ -58,9 +58,9 @@ Iteration:
 ### Import package
 
 
-The simple way will be to install the package from github with pip
+The simple way will be to install the package from github with pip : `pip install git+https://github.com/Eliot-M/sskmeans.git`
 
-Or download both SameSizeKmeans.py and support-functions.py
+Or manually download and run both sskmeans.py and support-functions.py.
 
 
 ### How to use it ?
