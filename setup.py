@@ -12,7 +12,10 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Eliot-M/sskmeans",
-    packages=setuptools.find_packages(),
+    packages=['funniest'],
+    install_requires=[
+        'pandas<1.0',
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
