@@ -1,1 +1,1 @@
-from .monfichier import square
+from .samesizekmeans import SameSizeKmeans

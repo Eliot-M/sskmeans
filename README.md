@@ -8,7 +8,7 @@ Most of the time, a K-means clustering will provide unequal clusters.
 
 If the clustering is used for its own or at the end of a process it does a pretty good job to create consistent clusters.
 
-However, if a such clustering is used to sample data before other operations, 
+However, if a such clustering is used as part of a sampling process before other operations, 
 then size of cluster is also as important as the closeness & consistency of clusters.
 
 ## Illustration
